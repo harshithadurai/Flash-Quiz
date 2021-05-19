@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ext.css">
+</head>
+
+<body>
+
+  <div id="page1">
+    <!--header-->
+    <div menu class="menuBlock">
+        <img id="menu" src="menu.png">
+        <img src="logotext.png" id="logotext">
+    </div>
+
+    <!--question block-->
+    <div class="main questionBlock" id="questionDisplayed"></div>
+    <div class="gap"></div>
+
+    <!--answer block-->
+    <div class="main answerBlock" id="answerDisplayed">
+        <textarea id="answerToCheck" type="text" placeholder="Enter Your Answer..."></textarea>
+    </div>
+
+    <!--footer buttons-->
+    <div class="main flex-container">
+        <button class="main flex-child" id="see-answer">
+          SEE ANSWER
+        </button>
+        <button class="main flex-child" id="check">
+            CHECK
+        </button>
+        <button class="main flex-child" id="next">
+          NEXT
+        </button> 
+      </div>
+      <script src="ext.js" defer></script>
+    </div>
+
+    <!--next page-->
+    
+    <div id="page2">
+
+        <!--header-->
+        <div class="backButton">
+            <a href="ext.html"> 
+                <img id="backButtonImage" src="backbutton.png">
+            </a>    
+            <img src="logotext.png" id="logotext">
+        </div>
+    
+        <!--questions list-->
+        <ul id="list">
+        </ul>
+    
+        <!--add question button-->
+        <div class="main questionBlock">
+            <img src="addquestion.png" id="addButton">
+            <div class="questionBlock">
+                <textarea type="text" id="questionInput" placeholder="Question..."></textarea>
+            </div>
+            <div answer class="answerBlock">
+                <textarea type="text" id="answerInput" placeholder="Answer..."></textarea>
+            </div>
+        </div>
+      
+      </div>
+</body>
+</html>

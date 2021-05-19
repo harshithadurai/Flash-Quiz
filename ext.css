@@ -1,0 +1,165 @@
+
+body {
+    margin-top: 8px;
+    margin: 9px;
+    background-color: #eaeddaff;
+    margin-bottom: 8px;
+  }
+
+.main {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #eaeddaff;
+}
+
+.menuBlock{
+    background-color: #eaeddaff;
+    color: #307981ff;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    width: 406px;
+}
+
+#logotext {
+    height: 16px;
+}
+
+#menu {
+    height: 10px;
+    position: fixed;
+    left:10px;
+    top: 18px;
+    cursor: pointer;
+}
+
+.questionBlock {
+    background-color: #307981ff;
+    padding : 3%; 
+    word-wrap: break-word;
+    font-weight: 500;
+}
+
+.gap {
+    height: 10px;
+}
+
+.answerBlock {
+    background-color: #7bbcbcff;
+    padding : 2%; 
+    font-weight: 100;
+}
+
+#answer-to-check {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+textarea {
+    color: #eaeddaff;
+    margin: 0;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    text-align: center;
+    background-color: #7bbcbcff;
+    width: 90%;
+    word-break: break-word;
+    max-height: 35px;
+    resize: none;
+  }
+
+textarea:focus {
+    outline: none;
+}
+
+textarea:focus::placeholder {
+    color: transparent;
+  }
+
+::placeholder {
+    color: #eaeddaff;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    background-color: #da7c75ff;
+    padding: 1%;
+    width: 90px;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+}  
+
+.flex-child:first-child {
+    margin-right: 4px;
+} 
+
+.flex-child:last-child {
+    margin-left: 4px;
+} 
+
+.flex-container > button:hover {
+   background-color: #93544fff;
+   outline: none;
+} 
+
+/* next page */
+
+#page2 {
+    display: none;
+}
+.backButton {
+    background-color: #eaeddaff;
+    color: #307981ff;
+    width: 406px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#backButtonImage {
+    height: 19px;
+    position: fixed;
+    left:10px;
+    top: 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+
+#questionInput {
+    background-color: #307981ff;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+#answerInput {
+    background-color: #7bbcbcff;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.deleteButtonImage {
+    height: 19px;
+    cursor: pointer;
+    float: right;
+}
+
+#addButton {
+    height: 30px;
+    cursor: pointer;
+}
+
